@@ -156,7 +156,7 @@ def drop():
     time.sleep(1.3)
     motor_stop_b()
 
-os.environ["OPENAI_API_KEY"] = "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" 
+os.environ["OPENAI_API_KEY"] = "" 
 client = OpenAI()
 
 def frame_to_base64(frame):
